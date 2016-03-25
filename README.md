@@ -2,32 +2,6 @@
 
 冒泡排序
 
-array[maxIdx] array[j] => 5 < 9
+1	2	3	4	9
 
-array[maxIdx] array[j] => 9 < 18
-
-maxIdx : 4
-
-5	9	2	3	12	18	
-
-array[maxIdx] array[j] => 5 < 9
-
-array[maxIdx] array[j] => 9 < 12
-
-maxIdx : 4
-
-array[maxIdx] array[j] => 5 < 9
-
-maxIdx : 1
-
-5	3	2	9	12	18	
-
-maxIdx : 0
-
-2	3	5	9	12	18	
-
-array[maxIdx] array[j] => 2 < 3
-
-maxIdx : 1
-
-2	3	5	9	12	18	
+会通过sorted 布尔值来判断是否已经有序，加快冒泡排序速度
